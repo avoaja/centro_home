@@ -1,7 +1,6 @@
 # centro-fullstack-exercise
-Link to exercise description
-
-[![Build Status](https://travis-ci.org/andrewliu-centro/centro-fullstack-exercise.svg?branch=master)](https://travis-ci.org/andrewliu-centro/centro-fullstack-exercise)
+**For ease of review, please create a fork of this repo and make a pull request on your fork with the changes outlined in the [exercise](https://docs.google.com/document/d/1L67fpjSySfx2vvoWpEBsaQE_zKLfBFVDfQPy7WUxzwA/edit)**
+- [Link to frontend specifications](VISUAL_SPEC.md)
 
 # Prerequisites
 
@@ -21,6 +20,4 @@ Run a server side command inside the docker container:
 docker-compose run --rm web [command]
 ```
 
-# Creating a submission
 
-For ease of review, please create a pull request on this repository with the changes outlined in the [exercise](https://docs.google.com/document/d/1L67fpjSySfx2vvoWpEBsaQE_zKLfBFVDfQPy7WUxzwA/edit)
