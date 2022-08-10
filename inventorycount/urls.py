@@ -6,6 +6,7 @@ from django.views.generic.base import RedirectView
 from rest_framework.routers import DefaultRouter
 from rest_framework.authtoken import views
 from .users.views import UserViewSet, UserCreateViewSet
+from .inventory.urls import router as inventory_router
 
 router = DefaultRouter()
 router.register(r'users', UserViewSet)
@@ -14,6 +15,7 @@ router.register(r'users', UserCreateViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/', include(router.urls)),
+    path('api/v1/', include(inventory_router.urls), ),
     path('api-token-auth/', views.obtain_auth_token),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 
