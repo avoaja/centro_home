@@ -1,0 +1,2 @@
+In a bigger project I will use storybook
+Using data-cy tags im html because we are thinking about testing

@@ -21,4 +21,27 @@ Run a server side command inside the docker container:
 docker-compose run --rm web [command]
 ```
 
+# Getting the backend setup to make API calls
+
+Please execute the following the steps once the docker container is running via docker compose!
+
+1. Bootstrap the data with data:
+
+```bash
+docker-compose run --rm web ./manage.py bootstrap
+```
+
+2. Ingest the CSV data:
+
+```bash
+docker-compose run --rm web ./manage.py backfill_inventory_log_data --email admin@example.com --csv andrews_inventory_data.csv
+```
+
+3. Navigate to localhost:8000:
+
+- Login with the credentials username: admin@example.com password: admin123
+
+4. Call the endpoint http://localhost:8000/api/v1/inventory-log/
+
+- Thi should result in the response you'll need to start building the frontend!
 

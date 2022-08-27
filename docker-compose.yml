@@ -38,3 +38,18 @@ services:
       - ./:/code
     ports:
       - "8001:8001"
+  # cypress:
+  #   # the Docker image to use from https://github.com/cypress-io/cypress-docker-images
+  #   image: "cypress/included:3.2.0"
+  #   depends_on:
+  #     - frontend
+  #   environment:
+  #     # pass base url to test pointing at the web application
+  #     - CYPRESS_baseUrl=http://localhost:3000
+  #   # command: npx cypress open && npx cypress run
+  #   # share the current folder as volume to avoid copying
+  #   working_dir: /e2e
+  #   volumes:
+  #     - ./:/e2e
+  #   network_mode: "host"
+
