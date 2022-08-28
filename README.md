@@ -1,3 +1,4 @@
+# My submission [link](Design-choices.md)
 # centro-fullstack-exercise
 **For ease of review, please create a fork of this repo and make a pull request on your fork with the changes outlined in the [exercise](https://docs.google.com/document/d/1L67fpjSySfx2vvoWpEBsaQE_zKLfBFVDfQPy7WUxzwA/edit)**
 - [Link to frontend specifications](VISUAL_SPEC.md)
