@@ -11,7 +11,7 @@ import { sortByDate } from "../../utils/helper";
 
 const TimeSeries = ({ data }) => {
   return (
-    <div className="mt-10 bg-white rounded-lg border border-gray-400 p-10">
+    <div className="mt-10 bg-white rounded-lg border border-gray-200 p-10 shadow-2xl">
       <AreaChart
         width={700}
         height={400}

@@ -22,7 +22,7 @@ const CustomPieChart = ({ data }) => {
           title="Select date"
         />
       </div>
-      <div className="mt-5 bg-white rounded-lg border border-gray-400 p-10">
+      <div className="mt-5 bg-white rounded-lg border border-gray-200 p-10 shadow-2xl">
         <PieChart width={800} height={400}>
           <Tooltip />
           <Pie
