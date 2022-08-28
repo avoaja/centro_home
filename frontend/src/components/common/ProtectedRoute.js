@@ -7,7 +7,7 @@ function PrivateRoute({ children }) {
   const { isLoggedIn } = useCentroStore((state) => state);
 
   if (!isLoggedIn) {
-    return <Navigate to="/login" replace />;
+    return <Navigate to="/auth/login" replace />;
   }
 
   return children;
