@@ -12,6 +12,7 @@ I used the following
 - Cypress (e2e testing)
 - React Hook Form (For clean forms)
 - Yup (flexible form manipulation)
+- React Hooks (useMemo)
 
 ### Design
 I used small components with single responsibility. To make the app maintainable and scalable.
